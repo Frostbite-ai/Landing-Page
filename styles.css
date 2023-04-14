@@ -1,0 +1,221 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.logo
+{
+   padding: 10px;
+   filter: invert(100%);
+   
+}
+
+
+
+.header{
+display: flex;
+margin-bottom: 50px;
+background-color: #1f2937;
+align-items: center;
+
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    flex: 1;
+    color: aliceblue;   
+    
+}
+
+li {
+     color: aliceblue;   
+     text-decoration: none;
+}
+
+.hero
+{
+    display: flex;
+    background-color: #1f2937; 
+    color: white;
+    
+}
+
+.container1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-left: 50px;
+}
+
+
+
+.Signup1
+{
+    margin-top: 20px;
+    width: 140px;
+    background-color: #3882f6;
+    padding: 10px;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    height: 45px;
+
+}
+.Signup1:hover
+{
+   
+    background-color: blue;
+}
+
+.paragraph
+{
+    width: 800px;
+}
+
+.texting
+
+{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:bolder ;
+    margin: 25px;
+
+
+    
+}
+.container2 {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+   margin-bottom: 50px;
+   
+}
+
+.inntercontainer
+{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    font-size: 20px;
+    color: #1f2937;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inntercontainer img
+{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 5px solid  #3882f6;
+}
+
+.testimonial
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 90px;
+    font-size: 23px;
+    
+    color: #1f2937;
+    background-color: #E5e7eb;
+    padding: 30px 250px 30px 250px;
+   
+    
+    
+}
+
+.testimonialsubtext
+{
+    font-size: 20px;
+    display: flex;
+    padding: 0;
+    justify-content: right;
+    align-items:right;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+
+}
+
+.testimonialtext
+{
+    
+    justify-content: center;
+    align-items: center;
+    font-style:italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.lastcontainer
+{
+    background-color: white;
+   
+    
+}
+
+.container4{
+    display: flex;
+    flex: 1;
+    min-height: 100px;
+    min-width: 200px;
+    justify-content: center;
+    align-content: center;
+    margin: 150px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: white;
+    gap:50px;
+    padding: 20px;
+
+}
+
+.container4 .Signup1 
+{
+    color: white;
+    border: 1px solid white;
+    margin-top: 0;
+    
+    
+
+    align-self: center;
+}
+
+.container4in 
+{
+
+    align-self: center;
+}
+
+.text3 
+{
+    font-size: 30px;
+}
+
+
+.text4
+{
+    
+    color: #E5e7eb;
+}
+
+.footer
+{
+    background-color: #E5e7eb;
+    
+    display: flex;
+    justify-content: center;
+}
