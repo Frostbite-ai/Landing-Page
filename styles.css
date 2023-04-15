@@ -13,8 +13,12 @@ body {
     display: flex;
     background-color: #1f2937;
     align-items: center;
-    padding: 20px 100px 20px 100px;
-
+    padding: 6px 100px 6px 100px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
     }
 
 ul a {
@@ -26,7 +30,6 @@ ul a {
 .logo
     {
        filter: invert(100%);
-        
     }
 
 
@@ -35,7 +38,8 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 10px;
-    margin-left: auto;
+   margin-left: auto;
+    text-align: left;
     color: white;   
     
 }
